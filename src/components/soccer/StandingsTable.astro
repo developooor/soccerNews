@@ -1,0 +1,54 @@
+---
+import { getStandings, getTeams } from "../../lib/api";
+import type { Conference } from "../../types/models";
+interface Props {
+  conference: Conference;
+}
+const { conference } = Astro.props;
+const rows = await getStandings(conference);
+const teams = await getTeams();
+---
+
+<div
+  class="table-scroll"
+  tabindex="0"
+  aria-label={`${conference} conference standings, scroll horizontally if needed`}
+>
+  <table>
+    <caption>{conference}Conference · simulated demo standings</caption>
+    <thead>
+      <tr>
+        {["Pos", "Team", "P", "W", "D", "L", "GD", "Pts"].map((x) => (
+          <th scope="col">{x}</th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((row) => {
+        const t = teams.find((t) => t.id === row.teamId)!;
+        return (
+          <tr>
+            <td>{row.position}</td>
+            <th scope="row">
+              <a href={`/mls/teams/${t.slug}/`}>
+                <span class="team-dot" style={`background:${t.color}`}></span>
+                {t.name}
+              </a>
+            </th>
+            <td>{row.played}</td>
+            <td>{row.wins}</td>
+            <td>{row.draws}</td>
+            <td>{row.losses}</td>
+            <td>
+              {row.goalDifference > 0 ? "+" : ""}
+              {row.goalDifference}
+            </td>
+            <td>
+              <strong>{row.points}</strong>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>

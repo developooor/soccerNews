@@ -1,0 +1,102 @@
+[
+  {
+    "id": "t1",
+    "slug": "inter-miami-cf",
+    "name": "Inter Miami CF",
+    "location": "Fort Lauderdale, Florida",
+    "conference": "Eastern",
+    "abbreviation": "MIA",
+    "color": "#eea8bd",
+    "description": "Inter Miami CF represents Fort Lauderdale, Florida in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t2",
+    "slug": "la-galaxy",
+    "name": "LA Galaxy",
+    "location": "Carson, California",
+    "conference": "Western",
+    "abbreviation": "LAG",
+    "color": "#16355b",
+    "description": "LA Galaxy represents Carson, California in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t3",
+    "slug": "los-angeles-fc",
+    "name": "Los Angeles FC",
+    "location": "Los Angeles, California",
+    "conference": "Western",
+    "abbreviation": "LAFC",
+    "color": "#a78948",
+    "description": "Los Angeles FC represents Los Angeles, California in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t4",
+    "slug": "seattle-sounders-fc",
+    "name": "Seattle Sounders FC",
+    "location": "Seattle, Washington",
+    "conference": "Western",
+    "abbreviation": "SEA",
+    "color": "#438354",
+    "description": "Seattle Sounders FC represents Seattle, Washington in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t5",
+    "slug": "new-york-city-fc",
+    "name": "New York City FC",
+    "location": "New York, New York",
+    "conference": "Eastern",
+    "abbreviation": "NYC",
+    "color": "#71b7d7",
+    "description": "New York City FC represents New York, New York in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t6",
+    "slug": "columbus-crew",
+    "name": "Columbus Crew",
+    "location": "Columbus, Ohio",
+    "conference": "Eastern",
+    "abbreviation": "CLB",
+    "color": "#d7b932",
+    "description": "Columbus Crew represents Columbus, Ohio in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t7",
+    "slug": "fc-cincinnati",
+    "name": "FC Cincinnati",
+    "location": "Cincinnati, Ohio",
+    "conference": "Eastern",
+    "abbreviation": "CIN",
+    "color": "#ef772b",
+    "description": "FC Cincinnati represents Cincinnati, Ohio in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t8",
+    "slug": "atlanta-united-fc",
+    "name": "Atlanta United FC",
+    "location": "Atlanta, Georgia",
+    "conference": "Eastern",
+    "abbreviation": "ATL",
+    "color": "#aa2b39",
+    "description": "Atlanta United FC represents Atlanta, Georgia in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t9",
+    "slug": "portland-timbers",
+    "name": "Portland Timbers",
+    "location": "Portland, Oregon",
+    "conference": "Western",
+    "abbreviation": "POR",
+    "color": "#28634b",
+    "description": "Portland Timbers represents Portland, Oregon in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  },
+  {
+    "id": "t10",
+    "slug": "austin-fc",
+    "name": "Austin FC",
+    "location": "Austin, Texas",
+    "conference": "Western",
+    "abbreviation": "ATX",
+    "color": "#54a759",
+    "description": "Austin FC represents Austin, Texas in Major League Soccer. This demo club hub brings together sample editorial coverage, fictional fixtures, and simulated results."
+  }
+]

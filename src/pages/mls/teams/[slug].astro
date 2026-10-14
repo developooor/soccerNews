@@ -1,0 +1,77 @@
+---
+import Base from "../../../layouts/BaseLayout.astro";
+import Bread from "../../../components/layout/Breadcrumbs.astro";
+import MatchCard from "../../../components/soccer/MatchCard.astro";
+import News from "../../../components/news/NewsSection.astro";
+import {
+  getTeams,
+  getUpcomingMatches,
+  getRecentResults,
+  getArticlesByCategory,
+} from "../../../lib/api";
+export async function getStaticPaths() {
+  return (await getTeams()).map((team) => ({
+    params: { slug: team.slug },
+    props: { team },
+  }));
+}
+const { team } = Astro.props;
+const games = (await getUpcomingMatches("MLS")).filter((m) =>
+    [m.homeTeamId, m.awayTeamId].includes(team.id),
+  ),
+  results = (await getRecentResults("MLS")).filter((m) =>
+    [m.homeTeamId, m.awayTeamId].includes(team.id),
+  ),
+  articles = (await getArticlesByCategory("MLS")).filter((a) =>
+    a.teamIds.includes(team.id),
+  );
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "SportsTeam",
+    name: team.name,
+    sport: "Soccer",
+    location: { "@type": "Place", name: team.location },
+    url: new URL(Astro.url.pathname, Astro.site).href,
+  },
+];
+---
+
+<Base
+  title={`${team.name} — club hub`}
+  description={team.description}
+  schema={schema}
+>
+  <Bread items={[{ label: "MLS", href: "/mls/" }, { label: team.name }]} />
+  <div class="page-heading team-heading">
+    <span class="club-badge" style={`background:${team.color}`}>
+      {team.abbreviation}
+    </span>
+    <div>
+      <span class="eyebrow">
+        {team.conference} CONFERENCE · {team.location}
+      </span>
+      <h1>{team.name}</h1>
+      <p>{team.description}</p>
+    </div>
+  </div>
+  <section class="section">
+    <h2>Upcoming games</h2>
+    <div class="match-grid">
+      {games.length ? (
+        games.map((match) => <MatchCard match={match} />)
+      ) : (
+        <p>No upcoming games in this demo dataset.</p>
+      )}
+    </div>
+  </section>
+  <section class="section">
+    <h2>Recent results</h2>
+    <div class="match-grid">
+      {results.map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+  <News title="From the club desk" articles={articles} />
+</Base>

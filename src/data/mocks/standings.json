@@ -1,0 +1,112 @@
+[
+  {
+    "teamId": "t1",
+    "conference": "Eastern",
+    "position": 1,
+    "played": 30,
+    "wins": 17,
+    "draws": 6,
+    "losses": 7,
+    "goalDifference": 24,
+    "points": 57
+  },
+  {
+    "teamId": "t5",
+    "conference": "Eastern",
+    "position": 2,
+    "played": 30,
+    "wins": 16,
+    "draws": 6,
+    "losses": 8,
+    "goalDifference": 17,
+    "points": 54
+  },
+  {
+    "teamId": "t6",
+    "conference": "Eastern",
+    "position": 3,
+    "played": 30,
+    "wins": 15,
+    "draws": 6,
+    "losses": 9,
+    "goalDifference": 10,
+    "points": 51
+  },
+  {
+    "teamId": "t7",
+    "conference": "Eastern",
+    "position": 4,
+    "played": 30,
+    "wins": 14,
+    "draws": 6,
+    "losses": 10,
+    "goalDifference": 3,
+    "points": 48
+  },
+  {
+    "teamId": "t8",
+    "conference": "Eastern",
+    "position": 5,
+    "played": 30,
+    "wins": 13,
+    "draws": 6,
+    "losses": 11,
+    "goalDifference": -4,
+    "points": 45
+  },
+  {
+    "teamId": "t2",
+    "conference": "Western",
+    "position": 1,
+    "played": 30,
+    "wins": 17,
+    "draws": 6,
+    "losses": 7,
+    "goalDifference": 24,
+    "points": 57
+  },
+  {
+    "teamId": "t3",
+    "conference": "Western",
+    "position": 2,
+    "played": 30,
+    "wins": 16,
+    "draws": 6,
+    "losses": 8,
+    "goalDifference": 17,
+    "points": 54
+  },
+  {
+    "teamId": "t4",
+    "conference": "Western",
+    "position": 3,
+    "played": 30,
+    "wins": 15,
+    "draws": 6,
+    "losses": 9,
+    "goalDifference": 10,
+    "points": 51
+  },
+  {
+    "teamId": "t9",
+    "conference": "Western",
+    "position": 4,
+    "played": 30,
+    "wins": 14,
+    "draws": 6,
+    "losses": 10,
+    "goalDifference": 3,
+    "points": 48
+  },
+  {
+    "teamId": "t10",
+    "conference": "Western",
+    "position": 5,
+    "played": 30,
+    "wins": 13,
+    "draws": 6,
+    "losses": 11,
+    "goalDifference": -4,
+    "points": 45
+  }
+]

@@ -1,0 +1,36 @@
+---
+import { breadcrumbs } from "../../lib/seo/schema";
+interface Props {
+  items: { label: string; href?: string }[];
+}
+const { items } = Astro.props;
+const schema = breadcrumbs([
+  { name: "Home", url: Astro.site!.href },
+  ...items.map((i) => ({
+    name: i.label,
+    url: new URL(i.href ?? Astro.url.pathname, Astro.site).href,
+  })),
+]);
+---
+
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    {items.map((i) => (
+      <li>
+        {i.href ? (
+          <a href={i.href}>{i.label}</a>
+        ) : (
+          <span aria-current="page">{i.label}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>
+
+<script
+  type="application/ld+json"
+  set:html={JSON.stringify(schema).replace(/</g, "\\u003c")}
+/>

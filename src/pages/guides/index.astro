@@ -1,0 +1,23 @@
+---
+import Base from "../../layouts/BaseLayout.astro";
+import Bread from "../../components/layout/Breadcrumbs.astro";
+import News from "../../components/news/NewsSection.astro";
+import { getArticlesByCategory } from "../../lib/api";
+const articles = await getArticlesByCategory("Guides");
+---
+
+<Base
+  title="Soccer guides — understand the American game"
+  description="Practical sample guides to MLS structure, standings, playoffs, following matches and finding legal viewing options."
+>
+  <Bread items={[{ label: "Guides" }]} />
+  <div class="page-heading">
+    <span class="eyebrow">A LITTLE CONTEXT GOES A LONG WAY</span>
+    <h1>Understand the game.</h1>
+    <p>
+      Start with the essentials. Sample evergreen guides, with official sources
+      for current rules and viewing information.
+    </p>
+  </div>
+  <News title="The soccer essentials" articles={articles} />
+</Base>

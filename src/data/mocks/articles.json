@@ -1,0 +1,1152 @@
+[
+  {
+    "id": "a1",
+    "slug": "a-new-chapter-for-soccer-in-america",
+    "title": "A new chapter for soccer in America",
+    "category": "MLS",
+    "excerpt": "A growing culture. A changing league. A closer look at the people and ideas moving the American game forward.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": "2026-10-14T14:00:00Z",
+    "readingTime": 2,
+    "featured": true,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": ["t1"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "A sport becoming part of everyday life",
+        "text": "The American soccer conversation stretches well beyond ninety minutes. Community pitches, supporter groups, youth coaches and neighborhood watch parties all create places where the game can take root. This demo feature imagines a publication following those connections as carefully as it follows a league table."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "What growth looks like from the touchline",
+        "text": "A fictional community club opens its training session to local families. The useful questions are simple: can a new fan understand the game, can a young player find a place to train, and can supporters build traditions of their own? No attendance figure or commercial claim is implied by this illustration.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a2",
+    "slug": "inside-miamis-patient-build-from-the-back",
+    "title": "Inside Miami\u2019s patient build from the back",
+    "category": "MLS",
+    "excerpt": "Inside Miami\u2019s patient build from the back. In this fictional Miami training scenario, the goalkeeper is part of the build-up rather than an emergency outlet.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": true,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": ["t2"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The first pass sets the direction",
+        "text": "In this fictional Miami training scenario, the goalkeeper is part of the build-up rather than an emergency outlet. Two center backs spread apart while a midfielder offers an angle between them. The shape invites pressure, then creates a route around it."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Patience needs a purpose",
+        "text": "Keeping possession is useful when it moves an opponent or creates a better next pass. The sample session alternates short combinations with a direct ball toward the far wing. Neither approach is presented as the real club\u2019s current system; both illustrate a decision a coach might explore.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a3",
+    "slug": "the-next-generation-is-finding-its-voice",
+    "title": "The next generation is finding its voice",
+    "category": "MLS",
+    "excerpt": "The next generation is finding its voice. The fictional young players in this story are asked to solve problems rather than memorize routes.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": true,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": ["t3"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Learning to make decisions",
+        "text": "The fictional young players in this story are asked to solve problems rather than memorize routes. A narrow pitch makes scanning and quick support essential. A wider pitch creates chances to receive with space and carry forward."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "A pathway includes more than minutes",
+        "text": "A responsible discussion of player development includes coaching, education, recovery and opportunity. This demo does not claim an academy has promoted a particular player. It shows how an editorial feature could explain the support behind a promising performance.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a4",
+    "slug": "seattles-midfield-a-study-in-balance",
+    "title": "Seattle\u2019s midfield: a study in balance",
+    "category": "MLS",
+    "excerpt": "Seattle\u2019s midfield: a study in balance. In this illustrative Seattle session, three midfield roles fit together: one protects the space in front of the defense, one connects possession, and one arrives higher up the pitch.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": ["t4"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Keeping the distances manageable",
+        "text": "In this illustrative Seattle session, three midfield roles fit together: one protects the space in front of the defense, one connects possession, and one arrives higher up the pitch. Their success depends on distance and timing rather than a rigid label."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Balance changes with possession",
+        "text": "When a fullback advances, another player may need to hold a deeper position. When the ball moves across the field, the midfield slides with it. These are generic coaching principles explored through a fictional club scenario, not a report of a Seattle match.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a5",
+    "slug": "las-rivalry-is-a-game-of-fine-margins",
+    "title": "LA\u2019s rivalry is a game of fine margins",
+    "category": "MLS",
+    "excerpt": "LA\u2019s rivalry is a game of fine margins. A derby can look frantic while still turning on small tactical choices.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": ["t5"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The rivalry inside the tactics",
+        "text": "A derby can look frantic while still turning on small tactical choices. Our fictional Los Angeles matchup explores when a winger stays wide and when an opposing fullback follows. The resulting space can matter more than an isolated moment of skill."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Margins without manufactured drama",
+        "text": "This sample contains no invented player quote or claimed result. Instead, it lays out two possible approaches: press the first pass or protect the space behind midfield. A real match report would need verified observation before choosing which story to tell.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a6",
+    "slug": "why-the-wide-players-set-the-tempo",
+    "title": "Why the wide players set the tempo",
+    "category": "MLS",
+    "excerpt": "Why the wide players set the tempo. A wide player can influence an attack without touching the ball.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": ["t6"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Width gives the middle room",
+        "text": "A wide player can influence an attack without touching the ball. Holding a position near the touchline forces a defender to decide whether to stay close or support the center. Either choice changes a teammate\u2019s options."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "When to come inside",
+        "text": "The right moment depends on where the ball is and who supplies the width after the winger moves. In this demo exercise, a fullback overlaps as the winger receives inside. The rotation works only when the next defensive transition is considered too.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a7",
+    "slug": "columbus-and-the-art-of-creating-space",
+    "title": "Columbus and the art of creating space",
+    "category": "MLS",
+    "excerpt": "Columbus and the art of creating space. This fictional Columbus exercise uses a forward dropping short to draw a marker while a teammate moves beyond.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": ["t7"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Space is created together",
+        "text": "This fictional Columbus exercise uses a forward dropping short to draw a marker while a teammate moves beyond. The useful detail is the timing: moving too soon allows the defense to reset, while moving too late closes the passing window."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Recognizing the spare player",
+        "text": "The team in possession is asked to identify where it has one more passing option than the opponent can cover. That advantage may last only a second. This demonstration describes a coaching idea without claiming it was used in an actual Crew fixture.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a8",
+    "slug": "new-yorks-neighborhood-soccer-culture",
+    "title": "New York\u2019s neighborhood soccer culture",
+    "category": "MLS",
+    "excerpt": "New York\u2019s neighborhood soccer culture. A neighborhood soccer story might begin at a public pitch instead of a stadium.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": ["t8"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "A city experienced through soccer",
+        "text": "A neighborhood soccer story might begin at a public pitch instead of a stadium. In this fictional New York feature, pickup games connect people with different languages and histories through a shared set of familiar movements."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Reporting a community with care",
+        "text": "Real coverage would involve listening to participants and confirming how a space is used. This sample deliberately avoids invented interview quotes, named community leaders or unsupported claims about a neighborhood. It demonstrates the questions a future reporter could ask.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a9",
+    "slug": "austins-matchday-atmosphere-explained",
+    "title": "Austin\u2019s matchday atmosphere, explained",
+    "category": "MLS",
+    "excerpt": "Austin\u2019s matchday atmosphere, explained. Scarves, songs and meeting places can turn matchday into a routine that supporters share.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": ["t9"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The rituals before kickoff",
+        "text": "Scarves, songs and meeting places can turn matchday into a routine that supporters share. This fictional Austin scene follows a group preparing for a game without suggesting a real gathering or attendance total."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Atmosphere has many contributors",
+        "text": "Fans, stadium staff, local businesses and accessible transport all shape the experience around a venue. A thoughtful feature can examine those contributions without reducing a city to one chant or one evening.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a10",
+    "slug": "the-tactical-value-of-a-second-striker",
+    "title": "The tactical value of a second striker",
+    "category": "MLS",
+    "excerpt": "The tactical value of a second striker. A second striker can link the midfield to the highest forward.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": ["t10"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Two forwards, different jobs",
+        "text": "A second striker can link the midfield to the highest forward. In the sample shape here, one player stretches the back line while the other moves toward the ball. Their separation provides different passing options."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "The trade-off further back",
+        "text": "Adding a forward may remove a player from another area. The midfield must cover more ground or the wide players must recover deeper. This demo explains the choice rather than suggesting one formation is always superior.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a11",
+    "slug": "cincinnatis-pressing-puzzle",
+    "title": "Cincinnati\u2019s pressing puzzle",
+    "category": "MLS",
+    "excerpt": "Cincinnati\u2019s pressing puzzle. Our fictional Cincinnati exercise begins when the ball travels toward the touchline.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": ["t1"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Pressing is a collective decision",
+        "text": "Our fictional Cincinnati exercise begins when the ball travels toward the touchline. The nearest player closes down while two teammates cover the easy outlets. Without that cover, an enthusiastic press can leave the middle exposed."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "The trigger is only the beginning",
+        "text": "A heavy touch or backward pass may invite pressure, but the team still needs a response if the opponent escapes. The sample session includes a recovery phase so the defensive work does not end with the first sprint.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a12",
+    "slug": "what-makes-a-complete-mls-midfield",
+    "title": "What makes a complete MLS midfield?",
+    "category": "MLS",
+    "excerpt": "What makes a complete MLS midfield?. Passing range, ball carrying and defensive awareness matter, but combinations matter too.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": ["t2"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "A midfield is more than a checklist",
+        "text": "Passing range, ball carrying and defensive awareness matter, but combinations matter too. Two players with similar strengths can still leave the same space uncovered. A balanced unit shares responsibilities clearly."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Judge the role before the statistic",
+        "text": "A player asked to protect the defense may make fewer forward runs than a teammate. This demonstration encourages readers to understand the assignment before comparing isolated numbers. No real player statistics are invented here.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a13",
+    "slug": "the-academy-pathway-one-step-at-a-time",
+    "title": "The academy pathway, one step at a time",
+    "category": "MLS",
+    "excerpt": "The academy pathway, one step at a time. This fictional academy pathway includes a player adapting to a new position and a faster level of play.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": ["t3"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Development rarely follows a straight line",
+        "text": "This fictional academy pathway includes a player adapting to a new position and a faster level of play. Progress comes through repeated feedback, not a single dramatic breakthrough."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Questions that deserve evidence",
+        "text": "A real feature would confirm the player\u2019s background, speak with appropriate sources and avoid treating one appearance as a guarantee of future success. This demo focuses on the structure of such reporting without fabricating an individual\u2019s career.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a14",
+    "slug": "portlands-enduring-connection-to-the-game",
+    "title": "Portland\u2019s enduring connection to the game",
+    "category": "MLS",
+    "excerpt": "Portland\u2019s enduring connection to the game. In this fictional Portland feature, a supporter describes the game through shared routines rather than a league position.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": ["t4"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Tradition is built over time",
+        "text": "In this fictional Portland feature, a supporter describes the game through shared routines rather than a league position. The scene is illustrative: there is no invented quote attributed to an actual person."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "A club is part of a place",
+        "text": "Understanding a soccer community means looking at the spaces where people meet and how newcomers are welcomed. Match results can change quickly; a connection to place can be more durable.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a15",
+    "slug": "five-details-to-watch-on-matchday",
+    "title": "Five details to watch on matchday",
+    "category": "MLS",
+    "excerpt": "Five details to watch on matchday. Before kickoff, choose a few details to follow: midfield spacing, the height of the defensive line, and the positions of the wide players.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": ["t5"],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Watch the moments between actions",
+        "text": "Before kickoff, choose a few details to follow: midfield spacing, the height of the defensive line, and the positions of the wide players. These clues reveal how a team hopes to control the game."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Return to the same questions",
+        "text": "After a substitution or a change in score, check those details again. A shift in shape may explain why the game feels different. This sample viewing guide uses no real fixture or predicted result.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a16",
+    "slug": "usmnt-building-a-more-connected-midfield",
+    "title": "USMNT: building a more connected midfield",
+    "category": "USMNT",
+    "excerpt": "USMNT: building a more connected midfield. A national team has limited training time together.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": [],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Connection before complexity",
+        "text": "A national team has limited training time together. In this fictional USMNT camp, the midfield begins with clear support angles and shared expectations about who holds position when a teammate advances."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Build shared reference points",
+        "text": "Simple principles can travel between different club backgrounds. The demonstration focuses on showing for the ball, recognizing pressure and protecting space after a turnover. It does not claim a current coach has adopted this plan.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a17",
+    "slug": "the-usmnt-player-pathway-explained",
+    "title": "The USMNT player pathway, explained",
+    "category": "USMNT",
+    "excerpt": "The USMNT player pathway, explained. A player\u2019s path toward a national team can involve different leagues, development settings and personal circumstances.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": [],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "There is more than one route",
+        "text": "A player\u2019s path toward a national team can involve different leagues, development settings and personal circumstances. This sample explains the idea of a pathway without announcing a call-up or promising selection."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Opportunity and readiness",
+        "text": "International selection involves sporting judgments that can change over time. A useful profile would distinguish confirmed appearances from potential. This fictional feature avoids a roster list that could be mistaken for the current USMNT squad.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a18",
+    "slug": "how-national-teams-prepare-in-a-short-camp",
+    "title": "How national teams prepare in a short camp",
+    "category": "USMNT",
+    "excerpt": "How national teams prepare in a short camp. The fictional coaching staff in this scenario prioritizes recovery, a small number of tactical themes and clear communication.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": [],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Making a short camp count",
+        "text": "The fictional coaching staff in this scenario prioritizes recovery, a small number of tactical themes and clear communication. Players arrive with different recent workloads, so every training minute has a purpose."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Practice the moments that recur",
+        "text": "Restarts, transitions and basic defensive spacing can be rehearsed efficiently. The sample agenda does not represent a real national team itinerary; it illustrates how limited preparation time might shape a session.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a19",
+    "slug": "a-closer-look-at-the-usmnts-wide-options",
+    "title": "A closer look at the USMNT\u2019s wide options",
+    "category": "USMNT",
+    "excerpt": "A closer look at the USMNT\u2019s wide options. A wide attacker\u2019s choices depend on the fullback, the nearest midfielder and the center forward.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": [],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Width comes from relationships",
+        "text": "A wide attacker\u2019s choices depend on the fullback, the nearest midfielder and the center forward. In this fictional USMNT exercise, those players rotate responsibilities so one can move inside while another keeps the field stretched."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Consider the next phase",
+        "text": "The team also needs a plan for losing possession. The nearest player pressures the ball while others protect forward passing lanes. These generic ideas should not be mistaken for analysis of an actual international match.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a20",
+    "slug": "what-to-watch-in-the-next-usmnt-cycle",
+    "title": "What to watch in the next USMNT cycle",
+    "category": "USMNT",
+    "excerpt": "What to watch in the next USMNT cycle. A national team cycle creates questions about continuity, opportunity and style.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 2,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": [],
+    "intro": "From the training ground to the stands, the details tell a bigger story about the American game. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "Start with questions, not predictions",
+        "text": "A national team cycle creates questions about continuity, opportunity and style. This demo feature asks how a group can build shared habits while leaving room for players with different strengths."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "Separate potential from confirmation",
+        "text": "Future coverage should identify what is verified, what is analysis and what remains uncertain. This sample announces no squad, transfer, injury or scheduled tournament outcome. Its purpose is to show a responsible editorial format.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a21",
+    "slug": "how-mls-works",
+    "title": "How MLS Works",
+    "category": "Guides",
+    "excerpt": "How MLS Works. MLS brings clubs across the United States and Canada into a league organized around regular-season play and a postseason.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 4,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": [],
+    "intro": "A clear, practical guide to the structures and decisions that shape American soccer. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The big picture",
+        "text": "MLS brings clubs across the United States and Canada into a league organized around regular-season play and a postseason. Competition rules can change by season; use the official MLS rulebook for the year you are following."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "What to look for",
+        "text": "Watch what happens before the ball arrives. A midfielder checking a shoulder, a winger holding width, and a defender stepping forward can open a passing lane. Looking for these small decisions makes a match easier to understand, even when the score does not change.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a22",
+    "slug": "understanding-mls-standings",
+    "title": "Understanding MLS Standings",
+    "category": "Guides",
+    "excerpt": "Understanding MLS Standings. A standings table summarizes results across a season.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 4,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": [],
+    "intro": "A clear, practical guide to the structures and decisions that shape American soccer. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The big picture",
+        "text": "A standings table summarizes results across a season. Played is the number of completed games; wins, draws and losses account for those games. Points commonly award three for a win and one for a draw. Official tie-breaking rules should always be checked for the relevant season."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "What to look for",
+        "text": "Watch what happens before the ball arrives. A midfielder checking a shoulder, a winger holding width, and a defender stepping forward can open a passing lane. Looking for these small decisions makes a match easier to understand, even when the score does not change.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a23",
+    "slug": "how-the-mls-playoffs-work",
+    "title": "How the MLS Playoffs Work",
+    "category": "Guides",
+    "excerpt": "How the MLS Playoffs Work. The postseason determines the league champion through a playoff competition.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 4,
+    "featured": false,
+    "image": "/images/tactics.svg",
+    "imageAlt": "Original illustration of player positions on a soccer tactics board",
+    "teamIds": [],
+    "intro": "A clear, practical guide to the structures and decisions that shape American soccer. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The big picture",
+        "text": "The postseason determines the league champion through a playoff competition. Qualification, rounds and match formats may change. Consult the current MLS competition guidelines rather than assuming this sample site describes the active format."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "What to look for",
+        "text": "Watch what happens before the ball arrives. A midfielder checking a shoulder, a winger holding width, and a defender stepping forward can open a passing lane. Looking for these small decisions makes a match easier to understand, even when the score does not change.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a24",
+    "slug": "how-to-follow-mls-matches",
+    "title": "How to Follow MLS Matches",
+    "category": "Guides",
+    "excerpt": "How to Follow MLS Matches. Start with the official league schedule and your club\u2019s website.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 4,
+    "featured": false,
+    "image": "/images/american-game.svg",
+    "imageAlt": "Original editorial illustration of a soccer ball and an American city skyline",
+    "teamIds": [],
+    "intro": "A clear, practical guide to the structures and decisions that shape American soccer. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The big picture",
+        "text": "Start with the official league schedule and your club\u2019s website. Confirm kickoff time, time zone, venue and any schedule changes. Keep a match tracker open if you cannot watch, and read more than one report for context."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "What to look for",
+        "text": "Watch what happens before the ball arrives. A midfielder checking a shoulder, a winger holding width, and a defender stepping forward can open a passing lane. Looking for these small decisions makes a match easier to understand, even when the score does not change.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  },
+  {
+    "id": "a25",
+    "slug": "where-to-watch-mls-legally-in-the-usa",
+    "title": "Where to Watch MLS Legally in the USA",
+    "category": "Guides",
+    "excerpt": "Where to Watch MLS Legally in the USA. Use the official MLS website and individual club listings to identify authorized viewing options in your location.",
+    "author": "Soccer USA News Demo Desk",
+    "publishedAt": "2026-10-14T12:00:00Z",
+    "updatedAt": null,
+    "readingTime": 4,
+    "featured": false,
+    "image": "/images/soccer-field.svg",
+    "imageAlt": "Illustration of a floodlit soccer pitch, created for this demo",
+    "teamIds": [],
+    "intro": "A clear, practical guide to the structures and decisions that shape American soccer. All events and examples on this page are demo content.",
+    "sections": [
+      {
+        "id": "the-big-picture",
+        "heading": "The big picture",
+        "text": "Use the official MLS website and individual club listings to identify authorized viewing options in your location. Availability can vary by competition, territory and season. This guide intentionally does not state current rights holders, subscription prices or guaranteed availability."
+      },
+      {
+        "id": "what-to-look-for",
+        "heading": "What to look for",
+        "text": "Watch what happens before the ball arrives. A midfielder checking a shoulder, a winger holding width, and a defender stepping forward can open a passing lane. Looking for these small decisions makes a match easier to understand, even when the score does not change.",
+        "subheading": "A useful viewing habit",
+        "detail": "Follow one unit for a few minutes instead of following only the ball. Notice how the distances between players change when possession turns over. The aim is to recognize patterns, rather than judge a player from one isolated action."
+      },
+      {
+        "id": "looking-ahead",
+        "heading": "Looking ahead",
+        "text": "This is a fictional editorial scenario created for a frontend demonstration. The examples illustrate how a future publication could explain a story with context and source attribution. Check official club and competition information before making plans or treating an event as confirmed."
+      }
+    ],
+    "sources": [
+      {
+        "label": "MLS official website \u2014 verify current competition information",
+        "url": "https://www.mlssoccer.com/"
+      },
+      {
+        "label": "U.S. Soccer official website",
+        "url": "https://www.ussoccer.com/"
+      }
+    ],
+    "demo": true
+  }
+]

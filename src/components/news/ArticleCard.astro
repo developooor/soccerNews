@@ -1,0 +1,39 @@
+---
+import type { Article } from "../../types/models";
+interface Props {
+  article: Article;
+  compact?: boolean;
+}
+const { article: a, compact = false } = Astro.props;
+---
+
+<article class:list={["article-card", { compact }]}>
+  <a
+    href={`/news/${a.slug}/`}
+    class="card-image"
+    tabindex="-1"
+    aria-hidden="true"
+  >
+    <img
+      src={a.image}
+      alt=""
+      width="1400"
+      height="900"
+      loading="lazy"
+      style={`filter:hue-rotate(${Number(a.id.slice(1)) * 9}deg)`}
+    />
+    <span class="image-tag">DEMO STORY</span>
+  </a>
+  <div class="card-body">
+    <span class="eyebrow">
+      {a.category} <span class="muted">/ ANALYSIS</span>
+    </span>
+    <h3>
+      <a href={`/news/${a.slug}/`}>{a.title}</a>
+    </h3>
+    {!compact && <p>{a.excerpt}</p>}
+    <div class="byline">
+      {a.author.toUpperCase()} <span>· {a.readingTime} MIN READ</span>
+    </div>
+  </div>
+</article>

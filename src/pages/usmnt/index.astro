@@ -1,0 +1,62 @@
+---
+import Base from "../../layouts/BaseLayout.astro";
+import Bread from "../../components/layout/Breadcrumbs.astro";
+import News from "../../components/news/NewsSection.astro";
+import MatchCard from "../../components/soccer/MatchCard.astro";
+import {
+  getArticlesByCategory,
+  getUpcomingMatches,
+  getRecentResults,
+} from "../../lib/api";
+import { getPlayers } from "../../lib/api/players";
+const articles = await getArticlesByCategory("USMNT"),
+  matches = await getUpcomingMatches("USMNT"),
+  results = await getRecentResults("USMNT"),
+  players = await getPlayers();
+---
+
+<Base
+  title="USMNT news & national team hub"
+  description="Explore sample USMNT analysis, fictional player profiles and simulated national team fixtures."
+>
+  <Bread items={[{ label: "USMNT" }]} />
+  <div class="page-heading">
+    <span class="eyebrow">ONE TEAM. A WORLD OF POSSIBILITIES.</span>
+    <h1>The national team</h1>
+    <p>
+      The ideas and pathways shaping U.S. soccer. Demo stories and fictional
+      player profiles.
+    </p>
+  </div>
+  <News title="USMNT featured analysis" articles={articles.slice(0, 3)} />
+  <section class="section">
+    <h2>Upcoming fixtures</h2>
+    <div class="match-grid">
+      {matches.map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <h2>Recent results</h2>
+    <div class="match-grid">
+      {results.map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <h2>Players to understand · fictional profiles</h2>
+    <div class="player-grid">
+      {players.map((p) => (
+        <article class="player-card">
+          <span class="eyebrow">{p.position}</span>
+          <h3>{p.name}</h3>
+          <p>{p.description}</p>
+          <small>FICTIONAL DEMO PLAYER</small>
+        </article>
+      ))}
+    </div>
+  </section>
+  <News title="Latest national team news" articles={articles.slice(3)} />
+</Base>

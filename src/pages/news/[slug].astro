@@ -1,0 +1,13 @@
+---
+import ArticleLayout from "../../layouts/ArticleLayout.astro";
+import { getAllArticles, getArticleBySlug } from "../../lib/api";
+export async function getStaticPaths() {
+  return (await getAllArticles()).map((article) => ({
+    params: { slug: article.slug },
+  }));
+}
+const article = await getArticleBySlug(Astro.params.slug!);
+if (!article) throw new Error("Article not found");
+---
+
+<ArticleLayout article={article} />

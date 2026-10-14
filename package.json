@@ -1,0 +1,36 @@
+{
+  "name": "soccer-usa-news",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ASTRO_TELEMETRY_DISABLED=1 astro dev --host 0.0.0.0",
+    "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
+    "preview": "ASTRO_TELEMETRY_DISABLED=1 astro preview --host 0.0.0.0",
+    "check": "ASTRO_TELEMETRY_DISABLED=1 astro check",
+    "test": "node scripts/validate.mjs",
+    "test:browser": "node scripts/browser.mjs",
+    "audit:lighthouse": "node scripts/lighthouse.mjs",
+    "format": "prettier --write ."
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
+    "@lucide/astro": "^1.56.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "astro": "^7.3.8",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.64.0",
+    "cheerio": "^1.2.0",
+    "lighthouse": "^13.5.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.1",
+    "typescript": "^6.0.3"
+  }
+}

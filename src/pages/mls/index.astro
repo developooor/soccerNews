@@ -1,0 +1,65 @@
+---
+import Base from "../../layouts/BaseLayout.astro";
+import Breadcrumbs from "../../components/layout/Breadcrumbs.astro";
+import News from "../../components/news/NewsSection.astro";
+import MatchCard from "../../components/soccer/MatchCard.astro";
+import Standings from "../../components/soccer/StandingsTable.astro";
+import {
+  getArticlesByCategory,
+  getUpcomingMatches,
+  getRecentResults,
+  getTeams,
+} from "../../lib/api";
+const articles = await getArticlesByCategory("MLS"),
+  upcoming = await getUpcomingMatches("MLS"),
+  results = await getRecentResults("MLS"),
+  teams = await getTeams();
+---
+
+<Base
+  title="MLS news & match center"
+  description="Sample MLS features, club hubs, simulated fixtures and results from the Soccer USA News demonstration."
+>
+  <Breadcrumbs items={[{ label: "MLS" }]} />
+  <div class="page-heading">
+    <span class="eyebrow">THE LEAGUE. THE CLUBS. THE CULTURE.</span>
+    <h1>Major League Soccer</h1>
+    <p>
+      A closer look at the American game. All news and match data below are
+      demonstrations.
+    </p>
+  </div>
+  <div class="team-nav">
+    {teams.map((t) => (
+      <a href={`/mls/teams/${t.slug}/`}>{t.abbreviation}</a>
+    ))}
+  </div>
+  <News title="Featured in MLS" articles={articles.slice(0, 3)} />
+  <section class="section">
+    <div class="section-heading">
+      <h2>Upcoming fixtures</h2>
+      <a href="/mls/schedule/">Match center →</a>
+    </div>
+    <div class="match-grid">
+      {upcoming.slice(0, 3).map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <h2>Recent results</h2>
+    <div class="match-grid">
+      {results.slice(0, 3).map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <div class="section-heading">
+      <h2>Standings preview</h2>
+      <a href="/mls/standings/">Both conferences →</a>
+    </div>
+    <Standings conference="Eastern" />
+  </section>
+  <News title="Latest MLS stories" articles={articles.slice(3)} />
+</Base>

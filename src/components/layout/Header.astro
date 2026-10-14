@@ -1,0 +1,75 @@
+---
+import { Menu, ArrowUpRight } from "@lucide/astro";
+const links = [
+  ["Home", "/"],
+  ["MLS", "/mls/"],
+  ["USMNT", "/usmnt/"],
+  ["Standings", "/mls/standings/"],
+  ["Schedule", "/mls/schedule/"],
+  ["Guides", "/guides/"],
+];
+---
+
+<div class="demo-bar">
+  DEMO DATA{" "}
+  <span>Fictional stories, fixtures & standings. For demonstration only.</span>
+</div>
+<header>
+  <div class="container masthead">
+    <a href="/" class="brand">
+      <span class="brand-mark" aria-hidden="true">
+        S<span>→</span>
+      </span>
+      <span>
+        SOCCER <span class="brand-sub">USA NEWS</span>
+      </span>
+    </a>
+    <div class="masthead-note">
+      THE AMERICAN GAME.
+      <br />
+      <strong>A WIDER PERSPECTIVE.</strong>
+    </div>
+    <a href="#newsletter" class="subscribe">
+      The Weekly Kickoff <ArrowUpRight size={16} />
+    </a>
+    <button
+      id="menu-toggle"
+      aria-label="Open navigation"
+      aria-expanded="false"
+      aria-controls="main-nav"
+    >
+      <Menu size={24} />
+    </button>
+  </div>
+  <nav id="main-nav" class="container" aria-label="Main navigation">
+    {links.map(([label, url]) => (
+      <a
+        href={url}
+        aria-current={Astro.url.pathname === url ? "page" : undefined}
+      >
+        {label}
+      </a>
+    ))}
+    <span class="nav-note">INDEPENDENT SPIRIT. DEMO CONTENT.</span>
+  </nav>
+</header>
+<script>
+  const button = document.querySelector<HTMLButtonElement>("#menu-toggle");
+  const nav = document.querySelector("#main-nav");
+  button?.addEventListener("click", () => {
+    const open = button.getAttribute("aria-expanded") !== "true";
+    button.setAttribute("aria-expanded", String(open));
+    button.setAttribute(
+      "aria-label",
+      open ? "Close navigation" : "Open navigation",
+    );
+    nav?.classList.toggle("open", open);
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      button?.setAttribute("aria-expanded", "false");
+      nav?.classList.remove("open");
+      button?.focus();
+    }
+  });
+</script>

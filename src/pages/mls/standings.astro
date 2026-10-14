@@ -1,0 +1,80 @@
+---
+import Base from "../../layouts/BaseLayout.astro";
+import Bread from "../../components/layout/Breadcrumbs.astro";
+import Table from "../../components/soccer/StandingsTable.astro";
+---
+
+<Base
+  title="MLS standings — Eastern & Western conferences"
+  description="Compare simulated MLS conference standings with wins, draws, losses, goal difference and points."
+>
+  <Bread items={[{ label: "MLS", href: "/mls/" }, { label: "Standings" }]} />
+  <div class="page-heading">
+    <span class="eyebrow">THE SEASON AT A GLANCE</span>
+    <h1>MLS standings</h1>
+    <p>
+      Simulated standings for a ten-team demo dataset. These are not current
+      league positions.
+    </p>
+  </div>
+  <div class="tabs" role="tablist" aria-label="Conference">
+    <button id="east-tab" role="tab" aria-selected="true" aria-controls="east">
+      Eastern Conference
+    </button>
+    <button
+      id="west-tab"
+      role="tab"
+      aria-selected="false"
+      aria-controls="west"
+      tabindex="-1"
+    >
+      Western Conference
+    </button>
+  </div>
+  <div id="east" role="tabpanel" aria-labelledby="east-tab">
+    <Table conference="Eastern" />
+  </div>
+  <div id="west" role="tabpanel" aria-labelledby="west-tab" hidden>
+    <Table conference="Western" />
+  </div>
+  <p class="table-note">
+    P: played · W: wins · D: draws · L: losses · GD: goal difference · Pts:
+    points
+  </p>
+  <a class="text-link" href="/news/understanding-mls-standings/">
+    How to read the table →
+  </a>
+</Base>
+<script>
+  const tabs = Array.from(
+    document.querySelectorAll<HTMLButtonElement>('[role="tab"]'),
+  );
+  function select(tab: HTMLButtonElement) {
+    tabs.forEach((t) => {
+      const active = t === tab;
+      t.setAttribute("aria-selected", String(active));
+      t.tabIndex = active ? 0 : -1;
+      const p = document.getElementById(t.getAttribute("aria-controls")!);
+      if (p) p.hidden = !active;
+    });
+  }
+  tabs.forEach((t, i) => {
+    t.addEventListener("click", () => select(t));
+    t.addEventListener("keydown", (e) => {
+      if (["ArrowRight", "ArrowLeft", "Home", "End"].includes(e.key)) {
+        e.preventDefault();
+        const next =
+          tabs[
+            e.key === "Home"
+              ? 0
+              : e.key === "End"
+                ? tabs.length - 1
+                : (i + (e.key === "ArrowRight" ? 1 : -1) + tabs.length) %
+                  tabs.length
+          ]!;
+        select(next);
+        next.focus();
+      }
+    });
+  });
+</script>

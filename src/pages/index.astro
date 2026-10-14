@@ -1,0 +1,135 @@
+---
+import Base from "../layouts/BaseLayout.astro";
+import Card from "../components/news/ArticleCard.astro";
+import NewsSection from "../components/news/NewsSection.astro";
+import MatchCard from "../components/soccer/MatchCard.astro";
+import Standings from "../components/soccer/StandingsTable.astro";
+import {
+  getFeaturedArticles,
+  getArticlesByCategory,
+  getUpcomingMatches,
+  getLatestArticles,
+} from "../lib/api";
+const [featured, mls, usmnt, guides, matches, latest] = await Promise.all([
+  getFeaturedArticles(),
+  getArticlesByCategory("MLS"),
+  getArticlesByCategory("USMNT"),
+  getArticlesByCategory("Guides"),
+  getUpcomingMatches("MLS"),
+  getLatestArticles(),
+]);
+const lead = featured[0]!;
+---
+
+<Base
+  title="American soccer, from every angle"
+  description="Explore the Soccer USA News demo: MLS and USMNT analysis, sample fixtures, standings and practical soccer guides."
+>
+  <div class="breaking">
+    <strong>THE TOUCHLINE</strong>
+    <a href={`/news/${usmnt[0]!.slug}/`}>
+      Demo briefing: {usmnt[0]!.title} <span>→</span>
+    </a>
+  </div>
+  <div class="edition">
+    <span>THE SOCCER USA NEWS DEMO EDITION</span>
+    <span>MLS · USMNT · THE CULTURE OF THE GAME</span>
+  </div>
+  <section class="hero-grid" aria-label="Featured stories">
+    <article class="lead-story">
+      <a class="lead-image" href={`/news/${lead.slug}/`}>
+        <img
+          src={lead.image}
+          alt={lead.imageAlt}
+          width="1400"
+          height="900"
+          fetchpriority="high"
+        />
+        <span class="lead-overlay"></span>
+        <div class="lead-content">
+          <span class="eyebrow">
+            THE BIG READ <span>· DEMO FEATURE</span>
+          </span>
+          <h1>{lead.title}</h1>
+          <p>{lead.excerpt}</p>
+          <span class="lead-byline">
+            BY {lead.author.toUpperCase()} <span>→</span>
+          </span>
+        </div>
+      </a>
+    </article>
+    <div class="hero-secondary">
+      <h2 class="sr-only">More featured stories</h2>
+      {featured.slice(1).map((article) => (
+        <Card article={article} compact />
+      ))}
+    </div>
+    <aside class="trending">
+      <div class="section-heading">
+        <h2>On our radar</h2>
+        <span class="red-dot"></span>
+      </div>
+      <p class="aside-sub">THE STORIES WORTH YOUR TIME</p>
+      {latest.slice(3, 7).map((a, i) => (
+        <a class="trend-row" href={`/news/${a.slug}/`}>
+          <span>0{i + 1}</span>
+          <div>
+            <small>{a.category} · DEMO</small>
+            <h3>{a.title}</h3>
+          </div>
+        </a>
+      ))}
+      <a class="text-link" href="/guides/">
+        Understand the game →
+      </a>
+    </aside>
+  </section>
+  <div class="match-strip">
+    <div class="strip-title">
+      <span class="eyebrow">MATCH CENTER</span>
+      <h2>Next up</h2>
+      <a href="/mls/schedule/">Full schedule →</a>
+    </div>
+    {matches.slice(0, 3).map((match) => (
+      <MatchCard match={match} />
+    ))}
+  </div>
+  <NewsSection title="Around the MLS" href="/mls/" articles={mls.slice(3, 6)} />
+  <div class="split-section">
+    <NewsSection
+      title="The national team"
+      href="/usmnt/"
+      articles={usmnt.slice(0, 2)}
+    />
+    <section class="standings-preview">
+      <div class="section-heading">
+        <h2>The table</h2>
+        <a href="/mls/standings/">Full standings →</a>
+      </div>
+      <Standings conference="Eastern" />
+      <p class="muted">All points and positions are simulated.</p>
+    </section>
+  </div>
+  <section class="guides-band">
+    <div>
+      <span class="eyebrow">GET TO KNOW THE GAME</span>
+      <h2>Soccer is for everyone.</h2>
+      <p>
+        Your starting point for the league, the playoffs, and everything in
+        between.
+      </p>
+      <a href="/guides/" class="text-link">
+        Explore our guides →
+      </a>
+    </div>
+    <div>
+      {guides.slice(0, 3).map((a, i) => (
+        <a class="guide-link" href={`/news/${a.slug}/`}>
+          <span>0{i + 1}</span>
+          <h3>{a.title}</h3>
+          <span>→</span>
+        </a>
+      ))}
+    </div>
+  </section>
+</Base>

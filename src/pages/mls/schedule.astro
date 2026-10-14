@@ -1,0 +1,39 @@
+---
+import Base from "../../layouts/BaseLayout.astro";
+import Bread from "../../components/layout/Breadcrumbs.astro";
+import MatchCard from "../../components/soccer/MatchCard.astro";
+import { getUpcomingMatches, getRecentResults } from "../../lib/api";
+const upcoming = await getUpcomingMatches("MLS"),
+  results = await getRecentResults("MLS");
+---
+
+<Base
+  title="MLS schedule & results"
+  description="Browse fictional MLS fixtures, Eastern Time kickoffs and simulated final scores in our demo match center."
+>
+  <Bread items={[{ label: "MLS", href: "/mls/" }, { label: "Schedule" }]} />
+  <div class="page-heading">
+    <span class="eyebrow">YOUR MATCHDAY STARTS HERE</span>
+    <h1>MLS match center</h1>
+    <p>
+      All fixtures and scores are simulated. Kickoff times shown in U.S. Eastern
+      Time.
+    </p>
+  </div>
+  <section class="section">
+    <h2>Upcoming matches</h2>
+    <div class="match-grid">
+      {upcoming.map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+  <section class="section">
+    <h2>Recent results</h2>
+    <div class="match-grid">
+      {results.map((match) => (
+        <MatchCard match={match} />
+      ))}
+    </div>
+  </section>
+</Base>

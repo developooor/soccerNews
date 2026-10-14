@@ -1,0 +1,43 @@
+---
+import type { Match } from "../../types/models";
+import { getTeamById } from "../../lib/api";
+interface Props {
+  match: Match;
+}
+const { match: m } = Astro.props;
+const home = await getTeamById(m.homeTeamId),
+  away = await getTeamById(m.awayTeamId);
+const date = new Date(m.date);
+---
+
+<article class="match-card">
+  <div class="match-meta">
+    <span>{m.competition}</span>
+    <span>DEMO</span>
+  </div>
+  <div class="match-teams">
+    <span>{home?.name ?? "USMNT"}</span>
+    <strong>{m.status === "finished" ? m.homeScore : "—"}</strong>
+  </div>
+  <div class="match-teams">
+    <span>{away?.name ?? "Demo opposition"}</span>
+    <strong>{m.status === "finished" ? m.awayScore : "—"}</strong>
+  </div>
+  <div class="match-time">
+    <time datetime={m.date}>
+      {date.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        timeZone: "America/New_York",
+      })}{" "}
+      ·{" "}
+      {date.toLocaleTimeString("en-US", {
+        hour: "numeric",
+        minute: "2-digit",
+        timeZone: "America/New_York",
+      })}{" "}
+      ET
+    </time>
+    <span>{m.status === "finished" ? "FINAL" : "SCHEDULED"}</span>
+  </div>
+</article>

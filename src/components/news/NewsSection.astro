@@ -1,0 +1,26 @@
+---
+import ArticleCard from "./ArticleCard.astro";
+import type { Article } from "../../types/models";
+interface Props {
+  title: string;
+  href?: string;
+  articles: Article[];
+}
+const { title, href, articles } = Astro.props;
+---
+
+<section class="section">
+  <div class="section-heading">
+    <h2>{title}</h2>
+    {href && (
+      <a href={href}>
+        View all <span aria-hidden="true">→</span>
+      </a>
+    )}
+  </div>
+  <div class="news-grid">
+    {articles.map((article) => (
+      <ArticleCard article={article} />
+    ))}
+  </div>
+</section>
